@@ -179,10 +179,10 @@ h6 {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color: rgba(255, 255, 255, 0.95);
+  --background-color: rgba(0, 0, 0, 0.523);
   --heading-color: #3c3c3c;
-  --nav-color: #3c3c3c;
-  --nav-hover-color: #3c3c3c;
+  --nav-color: #e3e3e3;
+  --nav-hover-color: #e3e3e3;
 }
 
 /*--------------------------------------------------------------
@@ -454,8 +454,8 @@ h6 {
 .footer {
   color: var(--default-color);
   background-color: var(--background-color);
-  background: url("../img/footer-bg.jpg") top center no-repeat;
-  background-size: cover;
+  background: url("../img/fot-1.jpeg") ;
+  /* background-size: cover; */
   font-size: 14px;
   position: relative;
 }
@@ -792,7 +792,7 @@ section,
 .hero .info h2 {
   margin-bottom: 30px;
   padding-bottom: 30px;
-  font-size: 56px;
+  font-size: 52px;
   font-weight: 700;
   position: relative;
 }
@@ -1156,7 +1156,6 @@ section,
 .alt-services h3 {
   font-size: 28px;
   font-weight: 700;
-  margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
 }
@@ -1184,8 +1183,9 @@ section,
   justify-content: center;
   margin-right: 25px;
   font-size: 28px;
-  width: 56px;
-  height: 56px;
+  width: 60px;
+  height: auto;
+  padding: 4px;
   border-radius: 4px;
   line-height: 0;
   box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.1);
@@ -1199,11 +1199,8 @@ section,
 
 .alt-services .icon-box h4 {
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   font-size: 18px;
-}
-
-.alt-services .icon-box h4 a {
   color: var(--heading-color);
   transition: 0.3s;
 }
@@ -1455,13 +1452,17 @@ section,
 .testimonials .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
-  margin: 10px 0 5px 0;
+  /* margin: 10px 0 5px 0; */
 }
 
 .testimonials .testimonial-item h4 {
   color: color-mix(in srgb, var(--default-color), transparent 50%);
   font-size: 14px;
   margin: 0;
+}
+
+.container .section-title{
+  margin-top: 300px;
 }
 
 .testimonials .testimonial-item .stars {
