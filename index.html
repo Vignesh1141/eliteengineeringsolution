@@ -124,7 +124,7 @@
           </div>
 
           <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
-            <form action="forms/quote.php" method="post" class="php-email-form">
+            <!-- <form action="forms/quote.php" method="post" class="php-email-form">
               <h3>Get a Enquire</h3>
               <p>The Best Training Institute in Chennai</p>
               <div class="row gy-3">
@@ -154,7 +154,19 @@
                 </div>
 
               </div>
+            </form> -->
+            <form name="contact" method="POST" data-netlify="true">
+              <h3>Get a Enquire</h3>
+              <p>The Best Training Institute in Chennai</p>
+              
+              <input type="text" name="name" placeholder="Name" required>
+              <input type="email" name="email" placeholder="Email" required>
+              <input type="text" name="phone" placeholder="Phone" required>
+              <textarea name="message" rows="6" placeholder="Message" required></textarea>
+              
+              <button type="submit">Get a Enquire</button>
             </form>
+            
           </div><!-- End Quote Form -->
 
         </div>
