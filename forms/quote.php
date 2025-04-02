@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
 
-    $to = "naveenm1711@gmail.com"; // Change this to your email
+    $to = "naveenm1711@gmail.com"; 
     $subject = "New Enquiry from $name";
     $headers = "From: $email\r\nReply-To: $email\r\nContent-Type: text/plain; charset=UTF-8";
 
